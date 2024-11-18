@@ -1,6 +1,5 @@
-function name(firstName, lastName){
-    return names = {firstName: firstName, lastName: lastName};
+const names = (firstName, lastName) => {
+    return {firstName: firstName, lastName: lastName};
 }
 
-
-modules.export = name;
+module.exports = names;
